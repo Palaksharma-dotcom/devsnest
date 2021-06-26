@@ -1,0 +1,48 @@
+.frames{ 
+    margin-left: 400px;
+    margin-top: 100px;
+    box-shadow: 0px 1px 1px;
+    display:inline-block;
+}
+.table{
+    border-color:null ;
+    border-spacing: 0px;
+}
+td{
+    width: 20px;
+    height: 20px;
+    background: rgb(160, 60, 102);
+    margin:0.5px;
+    border-spacing: null;
+    border:1px solid;
+
+
+}
+table{
+    border-spacing: 2px;
+
+}
+/* .gridclicked{
+    width: 20px;
+    height: 20px;
+    background: rgb(160, 60, 102);
+    margin:0.5px;
+    border-spacing: null;
+    border:1px solid;
+
+
+} */
+.white{
+    background-color: rgb(55, 172, 127);
+    -webkit-animation: random 5s infinite;
+    animation: randoms infinite ;
+}
+
+td:hover{
+    background-color:yellow;
+    cursor: pointer;
+}
+
+/* .box{
+
+} */
