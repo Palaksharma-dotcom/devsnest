@@ -1,0 +1,40 @@
+.Card1{
+    position: relative;
+    padding: 1px;
+    top: 200px;
+    left:40%;
+    border: 10px solid black;
+    box-shadow: 10px 10px 10px;
+    height: 160px;
+    width: 160px;
+}
+.Box {
+    display: inline-flex;
+    float: left;
+  
+    /* grid-template-rows: 20px/ auto auto auto auto auto auto auto auto;  */
+    /* grid-template-columns: /auto auto auto auto auto auto auto auto; */
+    height: 20px;
+    width: 20px;
+}
+
+
+.Box1 {
+    display: inline-flex;
+   
+    float: left;
+    height: 20px;
+    width: 20px;
+}
+.Box:nth-child(odd){
+    background-color: black;
+}
+.Box:nth-child(even){
+    background-color: white;
+}
+.Box1:nth-child(odd){
+    background-color: white;
+}
+.Box1:nth-child(even){
+    background-color: rgb(12, 12, 12);
+}
