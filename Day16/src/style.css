@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding: 1px;
+    box-sizing: border-box;
+    background-color: white;
+    
+}
+
+.App{
+    
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    border-style: outset;
+    border-radius: 0em;
+    background-color: wheat;
+}
+.Card{
+    border: 1px solid black;
+    padding: 10px ;
+    width: 450px;
+    display: inline-block;
+    /* border: rgb(65, 60, 60);
+    border-radius: 4px; */
+    margin: auto;
+    box-shadow:5px 10px black;
+    
+
+}
+.Card img{
+    width:100%;
+
+    
+
+}
