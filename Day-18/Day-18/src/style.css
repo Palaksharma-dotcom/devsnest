@@ -1,0 +1,165 @@
+*{
+    margin : 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.App{
+    background-color: black;
+    min-height: 50vh;
+    margin-top: 200px;
+    margin-left: 500px;
+    width: 26vw;
+    display: flex;
+}
+.Appinner{
+    background-color: white;
+    min-height: 40vh;
+    margin-top: 22px;
+    margin-left: 26px;
+    width: 22vw;
+    position: absolute;
+    /* display: flex; */
+    z-index: 1px;
+}
+.first1{
+    background-color: red;
+    min-height: 5.5vh;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 22vw;
+    position: absolute;
+    display: flex;
+    z-index: 2px;
+
+}
+.first2{
+    background-color: red;
+    min-height: 5.5vh;
+    margin-top: 66px;
+    margin-left: 0px;
+    width: 22vw;
+    position: absolute;
+    display: flex;
+    z-index: 2px;
+
+}
+.first3{
+    background-color: red;
+    min-height: 5.5vh;
+    margin-top: 134px;
+    margin-left: 0px;
+    width: 22vw;
+    position: absolute;
+    display: flex;
+    z-index: 2px;
+
+}
+.first4{
+    background-color: red;
+    min-height: 5.5vh;
+    margin-top: 203px;
+    margin-left: 0px;
+    width: 22vw;
+    position: absolute;
+    display: flex;
+    z-index: 2px;
+
+}
+.grid{
+    background-color: white;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    z-index: 3px; 
+    min-height: 0.5vh;
+    width: 6vw;
+
+}
+
+.grid2{
+    background-color: black;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    z-index: 3px; 
+    min-height: 0.5vh;
+    width: 6vw;
+
+}
+
+
+.first{
+    background-color: yellow;
+}
+
+
+.card{
+    border : 1px solid black;
+    padding : 10px 20px;
+    display : inline-block;
+    margin: auto;
+}
+
+.second1{
+    background-color: red;
+    min-height: 5.5vh;
+    margin-top: 32px;
+    margin-left: 0px;
+    width: 22vw;
+    position: absolute;
+    display: flex;
+    z-index: 2px;
+
+}
+.second2{
+    background-color: red;
+    min-height: 5.5vh;
+    margin-top: 100px;
+    margin-left: 0px;
+    width: 22vw;
+    position: absolute;
+    display: flex;
+    z-index: 2px;
+
+}
+
+.second3{
+    background-color: red;
+    min-height: 5.5vh;
+    margin-top: 169px;
+    margin-left: 0px;
+    width: 22vw;
+    position: absolute;
+    display: flex;
+    z-index: 2px;
+
+}
+
+.second4{
+    background-color: red;
+    min-height: 5.5vh;
+    margin-top: 236px;
+    margin-left: 0px;
+    width: 22vw;
+    position: absolute;
+    display: flex;
+    z-index: 2px;
+
+}
+
+
+.second{
+    background-color: blue;
+}
+.Meme{
+display: inline-block;
+border: 2px solid black;
+margin-left: -380px;
+
+}
+
+.grid3 > h1{
+   padding-left: 60px;
+   padding-top: 230px;
+}
