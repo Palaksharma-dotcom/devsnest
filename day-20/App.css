@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: #F1ECC3;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .todo{
+    
+    height: 350px;
+    width: 50%;
+    margin: 3em auto ;
+  }
+  
+  .container{
+    height: 100%;
+    overflow: auto;
+    border: 2px solid black;
+    background-color: #C9D8B6;
+    padding: 1em;
+  }
+  
+  .card{
+    border: 2px solid black;
+    padding: 1em;
+    margin: 1em 0;
+    background:#57837B;
+    border-radius: 0 30px 0 30px;
+    transition: all 2s ease;
+  }
+  
+  button{
+    background: transparent;
+    padding: 10px;
+    border: 2px solid white;
+    color: white;
+    filter: opacity(0.4);
+    
+  }
+  
+  button:hover{
+    filter: opacity(0.9);
+  }
+  
+  .card h2{
+    color: #172c28;
+    display: flex;
+    justify-content: space-between;
+    /* color: white; */
+  }
+  
+  .card p{
+    color: #172c28;
+    margin: 10px;
+  }
