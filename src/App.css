@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body{
+  background: #f2f4f8;
+}
+
+.navbar{
+  background-color: whitesmoke;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar a:hover {
+  color: lightcoral;
+}
