@@ -1,0 +1,235 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+  margin:0px;
+  padding :0px;;
+}
+.load{
+  background: url("https://cdn.dribbble.com/users/2150438/screenshots/6128507/insta_loading_screen_mograph_dribbble.gif");
+  height: 650px;
+  background-repeat: no-repeat;
+  background-size: 1400px 650px;
+}
+body{
+  justify-content: center;
+  align-items: center;
+}
+
+.Login1{
+  width:55%;
+  float:right;
+  height: 500px;
+  background-color: blanchedalmond;
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .Login2{
+    width: 45%;
+    float:left;
+    height: 500px;
+    background-color: crimson;
+    background: url("https://panel.akmainer.com/public/image/login.jpg");
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    background-position-x:90px;
+    background-position-y: 50px;
+    
+
+  }
+  .Ig{
+    margin-left: 190px;
+    margin-bottom: 40px;
+    font-size: 4rem;
+    font-family: 'Pacifico', cursive;
+  }
+  .Username ,.Password{
+    width:300px;
+    height:30px;
+    margin :0px 0 20px 200px ;
+  }
+  .Login{
+  height: 50px;
+  width:120px;
+  background-color: rgb(45, 157, 231);
+  margin-left: 300px;
+  margin-top: 20px;
+  }
+.main{
+  position: absolute;
+  top: 80px;
+  left:50px;
+  border: 2px solid red;
+  border-radius: 5%;
+  width: 1250px;
+}
+.Navbar{
+
+  height: 100px;
+  width: 1380px;
+  margin: 0px 0px 20px 0px;
+  background-color: whitesmoke;
+  z-index: 2;
+}
+.Ninstagram{
+  
+  width:200px;
+  margin: 30px 640px 0px 60px;
+  display: inline-block;
+}
+.Home ,.Notification , .Message , .Profile{
+ 
+  
+  width:100px;
+  display: inline-block;
+  font-size: 1.9rem;
+}
+.DP{
+  position: relative;
+  top:15px;
+  width: 50px;
+  height:50px;
+  border-radius: 100%;
+  border:2px solid red;
+}
+.Part1{
+  width: 60%;
+  float:left;
+  height: 700px;
+  background-color: whitesmoke;
+overflow-y: auto;
+
+}
+.Part2{
+  width: 38%;
+  float:right;
+height: 700px;
+border: 2px solid white;
+}
+.Story{
+  width: 100%;
+  height:100px;
+  white-space: nowrap;
+ overflow-y: hidden;
+ overflow-x: auto;
+  background-color: blanchedalmond;
+  margin-bottom: 30px;
+  z-index: 1;
+}
+/* .Story::-webkit-scrollbar{
+  display: none;
+} */
+.Storys{
+  width:70px;
+  height:  70px;
+  border-radius: 100%;
+  position: relative;
+  display: inline-block;
+  margin :5px 30px 0px 10px;
+  padding:0px;
+  border : 5px solid rgb(230, 43, 43);
+
+  
+
+}
+.Storyimg{
+  width:70px;
+  height:72px;
+  border: 2px solid white;
+  border-radius: 100%;
+  position: relative;
+  top:-2px;
+  left:-2px;
+}
+.Card{
+  margin:20px 5px 20px 20px;
+  background-color:whitesmoke;
+  border: 2px solid black;
+
+  box-shadow:
+    rgba(22, 31, 39, 0.42) 0px 60px 123px -25px,
+    rgba(19, 26, 32, 0.08) 0px 35px 75px -35px;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color:
+    rgb(213, 220, 226)
+    rgb(213, 220, 226)
+    rgb(184, 194, 204);
+
+}
+.User div{
+display: inline-block;
+
+}
+
+
+.Name{
+  width: 150px;
+  font-size: 1.5rem;
+  font-weight:bolder;
+  margin: 0px 400px 0px 50px;
+}
+.Setting{
+  display:inline-block;
+  font-size: 1.8rem;
+
+}
+.Meme{
+align-items: center;
+width:50%;
+background-repeat: no-repeat;
+background-position-x: 50px;
+background-position-y: 50px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 30px;
+margin-top: 30px;
+}
+.Like , .Comment , .Share{
+  display: inline-block;
+font-size: 1.6rem;
+  height: 50px;
+  margin: 0px 10px 0px 50px;
+}
+.NLikes{
+  font-weight: 900;
+  margin-left: 50px;
+  font-size: 1.2rem;
+
+}
+.Desc>.Name{
+display: inline-block;
+margin-left: 50px;
+font-size: 1.3rem;
+font-weight: bolder;
+}
+.info{
+  display: inline-block;
+  font-weight: bold;
+}
+.userdp{
+  width: 100px;
+  height:100px;
+  border-radius: 100%;
+  display: inline-block;
+  margin: 5px 20px 15px 10px;
+}
+.username{
+  font-weight: bold;
+   display: inline-block;
+   position: relative;
+   bottom: 70px;
+   margin-right: 180px;
+}
+.follow{
+  color:rgb(12, 73, 122);
+  display:inline-block;
+  font-size: 1.3rem;
+  font-weight: bold;
+   position: relative;
+   bottom: 70px;
+}
+.unfollow{
+  color: black;
+}
