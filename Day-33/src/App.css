@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+*{
+  margin:0px;
+  padding: 0px;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todolist{
+  text-align: center;
+}
+.title{
+  font-size: 1.3rem;
+  font-weight: 300;
+  font-family: Hina Mincho;
+}
+.Add{
+  width: 50px;
+  height: 38px;
+  position: absolute;
+  top: 100px;
+  left:420px;
+}
+.input{
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  top: 100px;
+  left:200px;
+}
+
+.Add:hover{
+  border: 1px solid black;
+  outline-style : inset;
+  outline-color : rgb(230, 69, 5);
+  outline-width: 4px;
+  background-color: midnightblue;
+  color : seashell;
+
+}
+.divm{
+  width: 100%;
+  height: 800px;
+  background-color: black;
+}
+.main{
+  width:40%;
+  float:left;
+  border: 1px solid black;
+  height:500px;
+}
+.main2{
+  width:55%;
+  float:right;
+
+  height: 700px;
+  position: absolute;
+  top: 50px;
+  right:120px;
+  background: url('https://c.tenor.com/fL1ESIkJUVwAAAAM/checklist-to-do.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title{
+  color:beige;
+  font-size: 1.6rem;
+  position: relative;
+  top: 150px;
+ left: 200px;
+}
