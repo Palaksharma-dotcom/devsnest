@@ -1,0 +1,54 @@
+
+#Index.js#
+var Test=require("./require_test");
+
+var obj=new Test();
+console.log(obj.print());
+
+#require_test#
+class Test{
+    print()
+    {
+        console.log("inside requie test");
+    }
+}
+class Test2{
+    print(){
+        console.log("reserved content");
+    }
+}
+module.exports=Test;
+
+
+
+> var fs=require("fs");
+undefined
+> fs.mkdirSync('day_5);
+
+> fs.mkdirSync('day_5');
+undefined
+> fs.writeFileSync("day_5/hello.txt","hello people",(err)=>{
+... if(err){console.log(err);
+..... }});
+undefined
+> fs.appendFile
+[Function: appendFile]
+> fs.appendFileSync("day_5/hello.txt","updated");,"updated");
+undefined                            utf-8")
+> fs.readFileSync("day_5/hello.txt","utf-8")                              llo!.txt");
+'hello peopleupdated'
+> fs.renameSync("day_5/hello.txt","hello!.txt");
+undefined
+
+
+> fs.rmdirSync('day_5');
+undefined
+> fs.unlinkSync("hello!.txt");
+undefined
+
+PS F:\backend> node index.js
+PS F:\backend> node index.js
+PS F:\backend> cd i 
+PS F:\backend> node index.js
+inside requie test
+undefined
